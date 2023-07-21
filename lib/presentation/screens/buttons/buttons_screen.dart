@@ -45,8 +45,8 @@ class _ButtonsView extends StatelessWidget {
             FilledButton(onPressed: (){}, child: const Text('Filled')),
             FilledButton.icon(onPressed: (){}, icon: const Icon(Icons.accessibility_new), label: const Text('Filled Icon')),
             
-            OutlinedButton(onPressed: (){}, child: const Text('Outline Button')),
-            OutlinedButton.icon(onPressed: (){}, icon: const Icon(Icons.terminal), label: const Text('Outline Icon'),),
+            OutlinedButton(onPressed: (){}, child: const Text('Outlined Button')),
+            OutlinedButton.icon(onPressed: (){}, icon: const Icon(Icons.terminal), label: const Text('Outlined Icon'),),
 
             TextButton(onPressed: (){}, child: const Text('Text')),
             TextButton.icon(onPressed: (){}, icon: const Icon(Icons.account_box_outlined), label: const Text('Text Icon')),
