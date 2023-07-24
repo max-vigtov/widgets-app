@@ -27,9 +27,7 @@ class CardsScreen extends StatelessWidget {
 }
 
 class _CardsView extends StatelessWidget {
-  const _CardsView({
-    super.key,
-  });
+  const _CardsView();
 
   @override
   Widget build(BuildContext context) {
@@ -50,7 +48,7 @@ class _CardsView extends StatelessWidget {
 }
 
 class _CardType1 extends StatelessWidget {
-  const _CardType1({super.key, required this.label, required this.elevation});
+  const _CardType1({required this.label, required this.elevation});
 
   final String label;
   final double elevation;
@@ -82,7 +80,7 @@ class _CardType1 extends StatelessWidget {
 }
 
 class _CardType2 extends StatelessWidget {
-  const _CardType2({super.key, required this.label, required this.elevation});
+  const _CardType2({required this.label, required this.elevation});
 
   final String label;
   final double elevation;
@@ -121,7 +119,7 @@ class _CardType2 extends StatelessWidget {
 }
 
 class _CardType3 extends StatelessWidget {
-  const _CardType3({super.key, required this.label, required this.elevation});
+  const _CardType3({required this.label, required this.elevation});
 
   final String label;
   final double elevation;
@@ -155,7 +153,7 @@ class _CardType3 extends StatelessWidget {
 }
 
 class _CardType4 extends StatelessWidget {
-  const _CardType4({super.key, required this.label, required this.elevation});
+  const _CardType4({required this.label, required this.elevation});
 
   final String label;
   final double elevation;

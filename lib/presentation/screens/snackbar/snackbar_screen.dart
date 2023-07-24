@@ -22,7 +22,6 @@ class SnackBarScreen extends StatelessWidget {
   }
 
   void openDialog (BuildContext context){
-
     showDialog(
       barrierDismissible: false,
       context: context, 
@@ -31,7 +30,7 @@ class SnackBarScreen extends StatelessWidget {
         content: const Text('Nisi sint id dolor reprehenderit eiusmod deserunt eu. Mollit ex ut duis aliquip aute. Lorem excepteur do aliquip cillum Lorem dolor irure consequat tempor quis exercitation. Laboris ut officia pariatur id elit esse. Esse labore cupidatat ad proident dolor ex deserunt labore laboris.'),
         actions: [
             TextButton(  onPressed: () => context.pop(), child: const Text('Cancelar')),
-            FilledButton(onPressed: () => context.pop(), child: Text('Aceptar'))
+            FilledButton(onPressed: () => context.pop(), child: const Text('Aceptar'))
         ],
       ),
       );
