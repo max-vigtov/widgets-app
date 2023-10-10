@@ -53,8 +53,6 @@ class _InfiniteScrollScreenState extends State<InfiniteScrollScreen> {
     addFiveImages();
     isLoading = false;
 
-  //TODO: revisar si esta montado el componente/widget
-
     if (!isMounted) return;
 
     setState(() {});
