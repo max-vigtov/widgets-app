@@ -130,8 +130,5 @@ class _InfiniteScrollScreenState extends State<InfiniteScrollScreen> {
     );
   }
 
-@override
-List<Object?> get props => [imagesIds, isLoading, isMounted, scrollController];
-
 }
 
